@@ -32,7 +32,7 @@
 
 bool hasListeners;
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(AppleHealthKit);
 
 
 + (id)allocWithZone:(NSZone *)zone {
