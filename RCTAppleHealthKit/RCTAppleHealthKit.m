@@ -55,7 +55,14 @@ RCT_EXPORT_MODULE(AppleHealthKit);
 
 - (id) init
 {
-    return [super init];
+    self = [super init];
+    if (self) {
+        NSLog(@"🔥🔥🔥 RCTAppleHealthKit INITIALIZED - v1.19.0-fitbodylab-fix 🔥🔥🔥");
+        NSLog(@"🔥 Module name exported as: AppleHealthKit");
+        NSLog(@"🔥 This file was compiled from forked dependency");
+        NSLog(@"🔥 Check for this log to verify correct source compilation");
+    }
+    return self;
 }
 
 + (BOOL)requiresMainQueueSetup
